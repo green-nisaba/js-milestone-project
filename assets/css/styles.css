@@ -1,0 +1,42 @@
+body {
+    background-color: #ffff0080;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 42px;
+    text-align: center;
+}
+.quiz-container {
+    height: 450px;
+    background-color: #fff;
+width: 600px;
+border-radius: 4px;
+display: block;
+margin: 50px auto;
+
+}
+
+.quiz-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.quiz-container ul li {
+    display: inline-block;
+background-color: #ffff00b5;
+color: white;
+width: 40%;
+padding: 15px;
+margin: 10px;
+}
+
+.app-bottom {
+    float: right;
+    margin: 5px;
+    margin-top: 150px;
+}
+
