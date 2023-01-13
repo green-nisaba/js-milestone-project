@@ -2,6 +2,8 @@ body {
     background-color: #ffff0080;
     margin: 0;
     padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
 h3{
@@ -37,6 +39,5 @@ margin: 10px;
 .app-bottom {
     float: right;
     margin: 5px;
-    margin-top: 150px;
 }
 
