@@ -9,6 +9,7 @@ body {
 h3{
     font-size: 42px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .quiz-container {
     height: 450px;
@@ -35,6 +36,16 @@ width: 40%;
 padding: 15px;
 margin: 10px;
 }
+#question-image {
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  #question-image img {
+    width: 100%;
+  }
 
 .app-bottom {
     float: right;
