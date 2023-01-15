@@ -68,3 +68,22 @@ function showQuiz() {
 
 
 showQuiz();
+
+
+let scoreDisplay = document.getElementById("score");
+let score = 0;
+
+option1.addEventListener("click", verifyAnswer);
+option2.addEventListener("click", verifyAnswer);
+option3.addEventListener("click", verifyAnswer);
+option4.addEventListener("click", verifyAnswer);
+
+function verifyAnswer() {
+  let idCorrect = this.getAttribute("data-id");
+  if (idCorrect == questionsRange[ongoingQuiz].correctA) {
+   scoreDisplay.innerHTML = score++;
+  }
+  else {
+    alert("incorrect");
+  }
+}
