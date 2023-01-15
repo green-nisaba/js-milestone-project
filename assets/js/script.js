@@ -45,3 +45,26 @@ let questionsRange = [
       correctA: 1
     }
   ];
+
+  let ongoingQuiz = 0;
+
+const opt1 = document.getElementById("option1");
+const opt2 = document.getElementById("option2");
+const opt3 = document.getElementById("option3");
+const opt4 = document.getElementById("option4");
+
+
+
+function showQuiz() {
+  let quest = questionsRange[ongoingQuiz];
+  document.getElementById("question-image").innerHTML =
+    "<img src=" + quest.questionImage + ">";
+  opt1.innerHTML = quest.answer1;
+  opt2.innerHTML = quest.answer2;
+  opt3.innerHTML = quest.answer3;
+  opt4.innerHTML = quest.answer4;
+}
+
+
+
+showQuiz();
