@@ -46,11 +46,12 @@ let questionsRange = [
     }
   ];
 
+
   let questionImage = document.getElementById("question-image");
 let endOfQuiz = 5;
 let ongoingQuiz = [];
 let score = 0;
-let recieveAnswers = true;
+let recieveAnswers = false;
 let currentQuestion = {};
 let questionCount = 0;
 
@@ -61,6 +62,27 @@ function showQuiz() {
   console.log(ongoingQuiz);
   showNextQuestion();
 }
+
+const opt1 = document.getElementById("option1");
+const opt2 = document.getElementById("option2");
+const opt3 = document.getElementById("option3");
+const opt4 = document.getElementById("option4");
+
+
+function showNextQuestion() {
+  questionCount++;
+  const questionIndex = Math.floor(Math.random() * ongoingQuiz.length);
+  currentQuestion = ongoingQuiz[questionIndex];
+  questionImage.innerHTML = "<img src=" + currentQuestion.questionImage + ">";
+  opt1.innerHTML = currentQuestion.answer1;
+  opt2.innerHTML = currentQuestion.answer2;
+  opt3.innerHTML = currentQuestion.answer3;
+  opt4.innerHTML = currentQuestion.answer4;
+ongoingQuiz.splice[questionIndex, 1];
+recieveAnswers = true;
+
+}
+
 
 showQuiz();
 
