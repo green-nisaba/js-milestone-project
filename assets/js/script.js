@@ -55,7 +55,7 @@ let recieveAnswers = false;
 let currentQuestion = {};
 let questionCount = 0;
 const options = Array.from(document.getElementsByClassName("optionRange"));
-
+let scoreDisplay = document.getElementById("score");
 
 function showQuiz() {
   score = 0;
@@ -93,6 +93,11 @@ options.forEach((option) => {
     recieveAnswers = false;
     const selectedChoice = e.target;
     const selectedAnswer = selectedChoice.dataset["id"];
+    if (selectedAnswer == currentQuestion.correctA) {
+      scoreDisplay.innerHTML = score++;
+    }
+
+
     showNextQuestion();
   });
 });
@@ -101,19 +106,4 @@ options.forEach((option) => {
 showQuiz();
 
 
-let scoreDisplay = document.getElementById("score");
 
-option1.addEventListener("click", verifyAnswer);
-option2.addEventListener("click", verifyAnswer);
-option3.addEventListener("click", verifyAnswer);
-option4.addEventListener("click", verifyAnswer);
-
-function verifyAnswer() {
-  let idCorrect = this.getAttribute("data-id");
-  if (idCorrect == currentQuestion.correctA) {
-   scoreDisplay.innerHTML = score++;
-  }
-  else {
-    alert("incorrect");
-  }
-}
