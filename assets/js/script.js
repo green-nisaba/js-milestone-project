@@ -38,7 +38,7 @@ let questionsRange = [
     {
       questionImage:
         "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
-      answers1: "Uruguay",
+      answer1: "Uruguay",
       answer2: "Paraguay",
       answer3: "Guatemala",
       answer4: "Fiji",
@@ -54,6 +54,8 @@ let score = 0;
 let recieveAnswers = false;
 let currentQuestion = {};
 let questionCount = 0;
+const options = Array.from(document.getElementsByClassName("optionRange"));
+
 
 function showQuiz() {
   score = 0;
@@ -82,6 +84,15 @@ ongoingQuiz.splice[questionIndex, 1];
 recieveAnswers = true;
 
 }
+options.forEach((option) => {
+  option.addEventListener("click", (e) => {
+    if (!recieveAnswers) return;
+    recieveAnswers = false;
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset["id"];
+    showNextQuestion();
+  });
+});
 
 
 showQuiz();
@@ -96,7 +107,7 @@ option4.addEventListener("click", verifyAnswer);
 
 function verifyAnswer() {
   let idCorrect = this.getAttribute("data-id");
-  if (idCorrect == questionsRange[ongoingQuiz].correctA) {
+  if (idCorrect == currentQuestion.correctA) {
    scoreDisplay.innerHTML = score++;
   }
   else {
