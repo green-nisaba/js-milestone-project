@@ -72,6 +72,9 @@ const opt4 = document.getElementById("option4");
 
 
 function showNextQuestion() {
+  if (ongoingQuiz.length === 0 || questionCount >= endOfQuiz) {
+    alert("Quiz is over");
+}
   questionCount++;
   const questionIndex = Math.floor(Math.random() * ongoingQuiz.length);
   currentQuestion = ongoingQuiz[questionIndex];
