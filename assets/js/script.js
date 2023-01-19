@@ -56,6 +56,17 @@ let currentQuestion = {};
 let questionCount = 0;
 const options = Array.from(document.getElementsByClassName("optionRange"));
 let scoreDisplay = document.getElementById("score");
+const startScreen = document.getElementById("start");
+const startScreenHide = document.getElementById("introduction");
+const quizScreen = document.getElementById("quiz");
+
+startScreen.addEventListener("click", startQuiz);
+
+function startQuiz() {
+  startScreenHide.classList.add("hidden");
+  quizScreen.classList.remove("hidden");
+}
+
 
 function showQuiz() {
   score = 0;
