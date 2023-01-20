@@ -211,7 +211,7 @@ let questionsRange = [
 
 
   let questionImage = document.getElementById("question-image");
-let endOfQuiz = 5;
+let endOfQuiz = 20;
 let ongoingQuiz = [];
 let score = 0;
 let recieveAnswers = false;
