@@ -235,8 +235,7 @@ function startQuiz() {
 function showQuiz() {
   score = 0;
   questionCount = 0;
-  ongoingQuiz = [...questionsRange];
-  console.log(ongoingQuiz);
+  ongoingQuiz = [...questionsRange]
   showNextQuestion();
 }
 

@@ -74,6 +74,7 @@ border-radius: 20px;
   .info p {
     text-align: justify;
     padding: 70px 20px 30px;
+    margin-bottom: 0;
   }
   .start-btn {
     background-color: #eef98d;
@@ -100,6 +101,21 @@ border-radius: 20px;
     border-radius: 20px;
      padding-top: 20px;
   }
+
+.leader-container {
+  display: block;
+    width: 300px;
+    height: 450px;
+    font-size: 22px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+     padding-top: 20px;
+}
+#finalResultsRange
+{list-style: none;}
+
   .resultText {
     font-size: 28px;
   }
