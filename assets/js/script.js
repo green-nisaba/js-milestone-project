@@ -247,8 +247,10 @@ const opt4 = document.getElementById("option4");
 
 
 function showNextQuestion() {
-  if (ongoingQuiz.length === 0 || questionCount >= endOfQuiz) {
-    alert("Quiz is over");
+  if (ongoingQuiz.length === 0 || questionCount > endOfQuiz) {
+    localStorage.setItem("recentScore", score);
+
+    return window.location.assign("/finish.html");
 }
   questionCount++;
   const questionIndex = Math.floor(Math.random() * ongoingQuiz.length);
