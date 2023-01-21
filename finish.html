@@ -24,11 +24,11 @@
             id="username"
             placeholder="Enter your name"
           />
-          <button class="save-score" type="submit" onclick="saveScore(event)">
+          <button class="save-score" id="saveScoreB" type="submit" onclick="saveScore(event)" disabled>
             Save
           </button>
         </form>
-        <button class="try-again">Try again</button>
+        <button class="try-again" id="tryAgain" onclick="window.location.href='/index.html'">Try again</button>
       </div>
       <script src="assets/js/finish.js"></script>
 </body>
