@@ -211,7 +211,7 @@ let questionsRange = [
 
 
   let questionImage = document.getElementById("question-image");
-let endOfQuiz = 20;
+let endOfQuiz = 23;
 let ongoingQuiz = [];
 let score = 0;
 let recieveAnswers = false;
@@ -222,6 +222,7 @@ let scoreDisplay = document.getElementById("score");
 const startScreen = document.getElementById("start");
 const startScreenHide = document.getElementById("introduction");
 const quizScreen = document.getElementById("quiz");
+let progress = document.getElementById("progress");
 
 startScreen.addEventListener("click", startQuiz);
 
@@ -257,6 +258,7 @@ function showNextQuestion() {
   opt2.innerHTML = currentQuestion.answer2;
   opt3.innerHTML = currentQuestion.answer3;
   opt4.innerHTML = currentQuestion.answer4;
+  progress.innerText = `Question ${questionCount} out of 23`;
 ongoingQuiz.splice(questionIndex, 1);
 recieveAnswers = true;
 
