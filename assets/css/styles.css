@@ -72,6 +72,9 @@ border-radius: 20px;
     background-color: #fff;
   }
  
+  .explanation {
+    margin: 0 10px;
+  }
   .info p {
     text-align: justify;
     padding: 70px 20px 30px;
