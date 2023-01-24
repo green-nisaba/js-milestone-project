@@ -1,7 +1,7 @@
 let questionsRange = [
     {
       questionImage:
-        "/assets/images/Flag_of_Luxembourg.svg",
+        "assets/images/Flag_of_Luxembourg.svg",
       answer1: "Luxembourg",
       answer2: "Greece",
       answer3: "Italy",
@@ -10,7 +10,7 @@ let questionsRange = [
     },
     {
       questionImage:
-        "/assets/images/Flag_of_India.svg",
+        "assets/images/Flag_of_India.svg",
       answer1: "Spain",
       answer2: "India",
       answer3: "Monaco",
@@ -19,7 +19,7 @@ let questionsRange = [
     },
     {
       questionImage:
-        "/assets/images/Flag_of_the_Netherlands.svg",
+        "assets/images/Flag_of_the_Netherlands.svg",
       answer1: "Luxembourg",
       answer2: "Ireland",
       answer3: "Netherlands",
@@ -28,7 +28,7 @@ let questionsRange = [
     },
     {
       questionImage:
-        "/assets/images/Flag_of_Singapore.svg",
+        "assets/images/Flag_of_Singapore.svg",
       answer1: "Singapore",
       answer2: "Turkey",
       answer3: "Tunisia",
@@ -37,7 +37,7 @@ let questionsRange = [
     },
     {
       questionImage:
-        "/assets/images/Flag_of_Uruguay.svg",
+        "assets/images/Flag_of_Uruguay.svg",
       answer1: "Uruguay",
       answer2: "Paraguay",
       answer3: "Guatemala",
@@ -46,7 +46,7 @@ let questionsRange = [
     },
   {
     questionImage:
-      "/assets/images/Flag_of_Monaco.svg.png",
+      "assets/images/Flag_of_Monaco.svg.png",
     answer1: "Singapore",
     answer2: "Turkey",
     answer3: "Monaco",
@@ -55,7 +55,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Azerbaijan.svg",
+      "assets/images/Flag_of_Azerbaijan.svg",
     answer1: "Bulgaria",
     answer2: "Turkey",
     answer3: "Azerbaijan",
@@ -64,7 +64,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Norway.svg",
+      "assets/images/Flag_of_Norway.svg",
     answer1: "Norway",
     answer2: "Denmark",
     answer3: "Sweden",
@@ -74,7 +74,7 @@ let questionsRange = [
 
   {
     questionImage:
-      "/assets/images/Flag_of_Belgium.svg",
+      "assets/images/Flag_of_Belgium.svg",
     answer1: "Belgium",
     answer2: "Denmark",
     answer3: "Austria",
@@ -83,7 +83,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_France.svg",
+      "assets/images/Flag_of_France.svg",
     answer1: "Belgium",
     answer2: "Poland",
     answer3: "Austria",
@@ -92,7 +92,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Brazil.svg",
+      "assets/images/Flag_of_Brazil.svg",
     answer1: "Belgium",
     answer2: "Uruguay",
     answer3: "Portugal",
@@ -101,7 +101,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Mexico.svg",
+      "assets/images/Flag_of_Mexico.svg",
     answer1: "Mexico",
     answer2: "Ireland",
     answer3: "Portugal",
@@ -110,7 +110,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Vietnam.svg",
+      "assets/images/Flag_of_Vietnam.svg",
     answer1: "Vietnam",
     answer2: "Turkey",
     answer3: "Malaysia",
@@ -119,7 +119,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Montenegro.svg",
+      "assets/images/Flag_of_Montenegro.svg",
     answer1: "Vietnam",
     answer2: "Montenegro",
     answer3: "Niger",
@@ -128,7 +128,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Poland.svg",
+      "assets/images/Flag_of_Poland.svg",
     answer1: "Austria",
     answer2: "Poland",
     answer3: "Peru",
@@ -137,7 +137,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Latvia.svg",
+      "assets/images/Flag_of_Latvia.svg",
     answer1: "Austria",
     answer2: "Latvia",
     answer3: "Lithuania",
@@ -146,7 +146,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Liechtenstein.svg",
+      "assets/images/Flag_of_Liechtenstein.svg",
     answer1: "Liechtenstein",
     answer2: "Latvia",
     answer3: "Poland",
@@ -155,7 +155,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Moldova.svg",
+      "assets/images/Flag_of_Moldova.svg",
     answer1: "Montenegro",
     answer2: "Italy",
     answer3: "Romania",
@@ -164,7 +164,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Bandera_de_España.svg",
+      "assets/images/Bandera_de_España.svg",
     answer1: "Spain",
     answer2: "Italy",
     answer3: "Bolivia",
@@ -173,7 +173,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_the_Philippines.svg",
+      "assets/images/Flag_of_the_Philippines.svg",
     answer1: "Spain",
     answer2: "Tajikistan",
     answer3: "Philippines",
@@ -182,7 +182,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_South_Africa.svg",
+      "assets/images/Flag_of_South_Africa.svg",
     answer1: "South Africa",
     answer2: "Malta",
     answer3: "Libya",
@@ -191,7 +191,7 @@ let questionsRange = [
   },
   {
     questionImage:
-      "/assets/images/Flag_of_Lithuania.svg",
+      "assets/images/Flag_of_Lithuania.svg",
     answer1: "Latvia",
     answer2: "Malta",
     answer3: "Slovakia",
