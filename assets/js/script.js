@@ -249,7 +249,7 @@ function showNextQuestion() {
   if (ongoingQuiz.length === 0 || questionCount > endOfQuiz) {
     localStorage.setItem("recentScore", score);
 
-    return window.location.assign("/finish.html");
+    return window.location.assign("finish.html");
 }
   questionCount++;
   const questionIndex = Math.floor(Math.random() * ongoingQuiz.length);
