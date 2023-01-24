@@ -26,7 +26,7 @@ function saveScore(event){
     finalResults.splice(4);
 
     localStorage.setItem('finalResults', JSON.stringify(finalResults));
-    window.location.assign('finalResults.html');
+    window.location.assign('js-milestone-project/finalResults.html');
 
 }
 
