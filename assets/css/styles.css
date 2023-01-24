@@ -45,6 +45,7 @@ border-radius: 20px;
     display: block;
     margin: auto;
     margin-bottom: 70px;
+    box-shadow: 1px 20px 20px 15px #e9ed81
   }
   #question-image img {
     width: 100%;
@@ -114,7 +115,8 @@ border-radius: 20px;
      padding-top: 20px;
 }
 #finalResultsRange
-{list-style: none;}
+{list-style: none;
+padding: 0;}
 
   .resultText {
     font-size: 28px;
