@@ -235,7 +235,7 @@ function startQuiz() {
 function showQuiz() {
   score = 0;
   questionCount = 0;
-  ongoingQuiz = [...questionsRange]
+  ongoingQuiz = [...questionsRange];
   showNextQuestion();
 }
 
@@ -269,7 +269,7 @@ options.forEach((option) => {
     if (!recieveAnswers) return;
     recieveAnswers = false;
     const selectedChoice = e.target;
-    const selectedAnswer = selectedChoice.dataset["id"];
+    const selectedAnswer = selectedChoice.dataset['id'];
     if (selectedAnswer == currentQuestion.correctA) {
       scoreDisplay.innerHTML = score++;
     }

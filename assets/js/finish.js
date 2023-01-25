@@ -6,7 +6,6 @@ quizResult.innerText = `${latestScore}/23`;
 
 
 const finalResults = JSON.parse(localStorage.getItem('finalResults')) || [];
-const limitFinalResults = 3; 
 
 
 attemptName.addEventListener('keyup', ()  => {
