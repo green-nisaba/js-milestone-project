@@ -77,7 +77,7 @@ let questionsRange = [
 
   {
     questionImage:
-      "assets/images/Flag_of_Belgium.svg",
+      "assets/images/Belgium1.png",
     answer1: "Belgium",
     answer2: "Denmark",
     answer3: "Austria",

@@ -14,7 +14,9 @@ All images for the flag photos were taken from [Wikimedia](https://www.wikimedia
 # Features 
 ## Start screen 
 This screen greets the user and explains purpose of the quiz. It has two oprions: start quiz and leaderbord, which leads to previous results. 
+
 ![start-section](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/start.png)
+
 ## Quiz itself 
 Quiz contains a question and an image with a flag and set of 4 answers. User can choose one of suggested otions. 
 ![question](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/questionArea.png)
@@ -35,7 +37,11 @@ After saving results, user is landing to leaderboard page, where he can see high
 ![leaderboard](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/leaderboardWhole.png)
 
 # Testing 
-Quiz functionality was tested on next browsers: Opera, Chrome, Microsoft Edge. All features work as expected. All media are displaying noramlly. Links function. Results can be saved and shown. 
+Quiz functionality was tested on next browsers for desktop: Opera, Chrome, Microsoft Edge. All features work as expected. All media are displaying noramlly. Links function. Results can be saved and shown. 
+For mobile devices quiz was tested on Mi Broswer and Chrome. Results were the same as for desctop - no obvious issues.
+
+## Lighthouse 
+![lighthouse](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/Lighthouse_start.png)
 
 
 * HTML 
@@ -45,6 +51,7 @@ Html Checker found no errors or warnings to show for all three HTML pages (index
 W3C CSS Validator found no errors.
  
 * JS 
+JSHint for all three js files (script.js, finish.js, finalResults.js) show no errors (but did show several warnings).
 
 ## Bugs 
 
