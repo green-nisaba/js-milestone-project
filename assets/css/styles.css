@@ -146,3 +146,29 @@ padding: 0;}
     margin: 10px;
     border-radius: 14px;
   }
+  @media(max-width:600px) {
+  .quiz-container  {
+    height: 550px;
+  width: 400px;
+
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .quiz-container ul {
+    flex-direction: column;    
+     
+  }
+  .quiz-container ul li {
+    margin: 5px auto;
+  }
+  .app-bottom {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  .showProgress{
+    float: none;
+    text-align: center;
+  margin: 0;}
+}
