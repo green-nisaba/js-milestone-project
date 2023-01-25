@@ -20,6 +20,7 @@ This screen greets the user and explains purpose of the quiz. It has two oprions
 ## Quiz itself 
 Quiz contains a question and an image with a flag and set of 4 answers. User can choose one of suggested otions. 
 ![question](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/questionArea.png)
+
 User can also see the number of queston his answering right now 
 
 ![question-number](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/questionIndicator.png)
