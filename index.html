@@ -9,6 +9,7 @@
     <title>Flags Quiz</title>
 </head>
 <body>
+    <!-- This section creates starting screen for a user, that can be seen until user click "Start quiz" button-->
     <div class="introduction" id="introduction">
         <div class="info">
           <p>
@@ -19,6 +20,7 @@
           <button class="start-btn" onclick="window.location.href='finalResults.html'">Leaderboard</button>
         </div>
       </div>
+      <!-- This is the main quiz section, that's seen after user starts a quiz-->
     <div class="hidden" id="quiz">
 <div class="quiz-container">
 <div class="up">
@@ -34,6 +36,7 @@
 
         </ul>
     </div>
+    <!-- Below are score and progress features, whose values get updated with corresponding JS functions-->
     <div class="app-bottom">
 Score: <span id="score">0</span>
     </div>

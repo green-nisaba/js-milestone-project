@@ -260,6 +260,7 @@ function showNextQuestion() {
   opt3.innerHTML = currentQuestion.answer3;
   opt4.innerHTML = currentQuestion.answer4;
   progress.innerText = `Question ${questionCount} out of 23`;
+
 ongoingQuiz.splice(questionIndex, 1);
 recieveAnswers = true;
 
@@ -271,7 +272,8 @@ options.forEach((option) => {
     const selectedChoice = e.target;
     const selectedAnswer = selectedChoice.dataset['id'];
     if (selectedAnswer == currentQuestion.correctA) {
-      scoreDisplay.innerHTML = score++;
+      score++
+      scoreDisplay.innerHTML = score;
     }
 
 

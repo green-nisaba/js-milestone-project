@@ -38,9 +38,23 @@ After saving results, user is landing to leaderboard page, where he can see high
 Quiz functionality was tested on next browsers: Opera, Chrome, Microsoft Edge. All features work as expected. All media are displaying noramlly. Links function. Results can be saved and shown. 
 
 
+* HTML 
+Html Checker found no errors or warnings to show for all three HTML pages (index.html, finish.html, finalResults.html). 
+
+* CSS 
+W3C CSS Validator found no errors.
+ 
+* JS 
 
 ## Bugs 
 
+Fixed bugs 
+
+* Despite using splice method, answered questuins were still showing up in the quiz. It happened because I accidently used square brackets instead of parentheses. After rewriting this piece of code everything started working as expected. 
+
+* Links weren't working and images were broken after deployment. The issue was fixed by switching to relative paths in code. 
+ 
+* Score in quiz started updating from second question and didn't match final result. The issue was fixed by changing the order of declared virables. 
 
 # Deployment 
 
