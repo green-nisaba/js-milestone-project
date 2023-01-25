@@ -1,3 +1,6 @@
+/* Declare variables for DOM elements 
+* and quiz questions 
+*/
 let questionsRange = [
     {
       questionImage:
@@ -224,6 +227,11 @@ const startScreenHide = document.getElementById("introduction");
 const quizScreen = document.getElementById("quiz");
 let progress = document.getElementById("progress");
 
+/* Add event listeners 
+* and show user actual quiz 
+* instead of starting screen
+*/
+
 startScreen.addEventListener("click", startQuiz);
 
 function startQuiz() {
@@ -231,6 +239,8 @@ function startQuiz() {
   quizScreen.classList.remove("hidden");
 }
 
+/*Setting starting point for the quiz
+*/
 
 function showQuiz() {
   score = 0;
@@ -244,6 +254,10 @@ const opt2 = document.getElementById("option2");
 const opt3 = document.getElementById("option3");
 const opt4 = document.getElementById("option4");
 
+/* Main functionaluty of the quiz: updating question content 
+* by pulling random question 
+* and setting condition for the end of the quiz
+*/
 
 function showNextQuestion() {
   if (ongoingQuiz.length === 0 || questionCount > endOfQuiz) {
@@ -265,6 +279,11 @@ ongoingQuiz.splice(questionIndex, 1);
 recieveAnswers = true;
 
 }
+
+/* Verifying results 
+* and updating the score
+*/
+
 options.forEach((option) => {
   option.addEventListener("click", (e) => {
     if (!recieveAnswers) return;
