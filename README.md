@@ -101,3 +101,4 @@ To clone repository:
 
 ## Media 
 Images were taken from [Wikimedia](https://www.wikimedia.org/). 
+Favicon was generated with help of [Fav Gen Website](https://fav-gen.com/)
