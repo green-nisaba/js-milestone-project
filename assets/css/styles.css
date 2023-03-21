@@ -186,7 +186,7 @@ padding: 0;}
 @media(max-width:500px) {
   .quiz-container  {
   width: 90%;
-  height: 600px;
+  height: auto;
 margin: 0 auto;}
 
 #question-image {
@@ -215,4 +215,9 @@ margin: 0 auto;}
   .try-again {
     margin-bottom: 20px;
   }
+  h3{
+    font-size: 26px;}
+    .showProgress{
+      margin-bottom:20px;
+    }
 }
