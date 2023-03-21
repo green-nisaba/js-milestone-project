@@ -2,6 +2,9 @@
 Flag Quiz is an app created for entertainment purposes. Users can test their knowledge of international flags. 
 Quiz contains four content spaces: introduction, the quiz itself, final results and leaderboard. 
 
+![gen](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/e5ca8d089650996087f811afffd40ae26206ac5f/assets/images/Response_gen.png)
+
+
 # Design 
 ## Color scheme 
 For this project was used soft yellow, green and white tones in order not to interfere with perceprion of flag images.
@@ -39,7 +42,11 @@ After saving results, user is landing to leaderboard page, where he can see high
 
 # Testing 
 Quiz functionality was tested on next browsers for desktop: Opera, Chrome, Microsoft Edge. All features work as expected. All media are displaying noramlly. Links function. Results can be saved and shown. 
-For mobile devices quiz was tested on Mi Broswer and Chrome. Results were the same as for desctop - no obvious issues.
+For mobile devices quiz was tested on Mi Broswer and Chrome. Results were the same as for desktop - no obvious issues.
+
+![resp1](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/e5ca8d089650996087f811afffd40ae26206ac5f/assets/images/Resp1.png)
+![resp2](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/e5ca8d089650996087f811afffd40ae26206ac5f/assets/images/Resp2.png)
+![resp3](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/e5ca8d089650996087f811afffd40ae26206ac5f/assets/images/Resp3.png)
 
 ## Lighthouse 
 ![lighthouse](https://raw.githubusercontent.com/green-nisaba/js-milestone-project/main/assets/images/Lighthouse_start.png)
