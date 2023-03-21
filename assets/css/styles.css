@@ -183,3 +183,36 @@ padding: 0;}
   }
  
 }
+@media(max-width:500px) {
+  .quiz-container  {
+  width: 90%;
+  height: 600px;
+margin: 0 auto;}
+
+#question-image {
+  width: 170px;
+}
+}
+@media(max-width: 350px){
+  .info {
+    max-width: 250px;
+    margin: 100px auto;
+    height: auto;
+  }
+  .start-btn {
+    margin: 5px 10px;
+  }
+
+  .end-container{
+    max-width: 250px;
+    margin: 100px auto;
+  }
+  .leader-container {
+    max-width: 250px;
+    margin: 100px auto;
+    height: auto;
+  }
+  .try-again {
+    margin-bottom: 20px;
+  }
+}
